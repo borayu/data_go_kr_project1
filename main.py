@@ -2,7 +2,7 @@ import requests
 from urllib import parse
 
 base_url = "http://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/"
-api_key = "RzW8ODz9lh8si4bAVAPZHzhdc1YUo3+vqN4bEJu3OWGrHovkDHvo46nx72i7NGK5STsjJgw4H19FhJbJY1zWtw=="
+api_key = "cTWUGiJR/GRNsWP1Zvpr6EfojgF2NzRo6pzKHUXZplHewa1M8A9dkuiqnqsbVFTvix8hc8GWw4abmLFx7YB5tA=="
 
 url_holiday = base_url + 'getRestDeInfo'
 
@@ -13,4 +13,3 @@ params = {'ServiceKey':api_key,
 
 response = requests.get(url_holiday, params)
 print(response.text)
-
